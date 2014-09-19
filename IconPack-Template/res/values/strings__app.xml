@@ -20,8 +20,8 @@
 
 <resources>
     
-	<string name="package_name">your.icons.name.here</string>
-	<string name="email_address">template@email.com</string>
+	<string name="package_name">com.aj.icons</string>
+	<string name="email_address">abhinav.jhanwar.august2@gmail.com</string>
 	<string name="market_rate">market://details?id=your.icons.name.here</string>
 	<string name="app_market">market://details?id=app.the1dynasty.oss</string>
 	
@@ -77,11 +77,12 @@
 	<string name="not_supported">Currently Not Supported. Please Apply through your launcher settings.</string>
 	
 		<!-- GridView Titles -->
-	<string name="title_app">One-Stop-Shop</string>
+<!-- <string name="title_app">One-Stop-Shop</string> -->
 	<string name="title_info">Theme Info</string>
 	<string name="title_apply">Apply Theme</string>
 	<string name="title_walls">Wallpapers</string>
 	<string name="title_community">G+ Community</string>
+	<string name="title_xdat">XDA thread</string>
 	<string name="title_gplus">My Google+</string>
 	<string name="title_request">Request Icons</string>
 	

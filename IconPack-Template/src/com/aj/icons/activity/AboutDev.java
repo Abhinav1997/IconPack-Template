@@ -17,8 +17,8 @@ import com.actionbarsherlock.view.Window;
 public class AboutDev extends SherlockActivity {
 
 	private ImageButton
-    twitter,
-    facebook,
+//   twitter,
+    xda,
     gplus;
 	
 	// This creates your About Dev Activity
@@ -44,7 +44,7 @@ public class AboutDev extends SherlockActivity {
       gplus.setOnClickListener(new OnClickListener() {
               public void onClick(View v) {
               	try {
-              		final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://plus.google.com/110748421773388678236/posts"));
+              		final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://plus.google.com/u/0/+AbhinavJhanwar2"));
               		startActivity(intent);
               	} 
               	catch (RuntimeException gp) {
@@ -53,7 +53,7 @@ public class AboutDev extends SherlockActivity {
               }
       });
       
-      twitter = (ImageButton) findViewById(R.id.twitter_button);
+/*      twitter = (ImageButton) findViewById(R.id.twitter_button);
       twitter.setOnClickListener(new OnClickListener() {
               public void onClick(View v) {
               	try {
@@ -64,13 +64,13 @@ public class AboutDev extends SherlockActivity {
               		tw.printStackTrace();
               	}	
               }
-      });
+      }); */
       
-      facebook = (ImageButton) findViewById(R.id.facebook_button);
-      facebook.setOnClickListener(new OnClickListener() {
+      xda = (ImageButton) findViewById(R.id.xda_button);
+      xda.setOnClickListener(new OnClickListener() {
               public void onClick(View v) {
               	try {
-              		final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("https://www.facebook.com/pages/The1dynasty/428692913887012"));
+              		final Intent intent = new Intent(Intent.ACTION_VIEW).setData(Uri.parse("http://forum.xda-developers.com/member.php?u=4766488"));
               		startActivity(intent);
               	} 
               	catch (RuntimeException tw) {

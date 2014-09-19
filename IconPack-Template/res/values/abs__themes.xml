@@ -17,8 +17,8 @@
         <item name="actionDropDownStyle">@style/Widget.Sherlock.Spinner.DropDown.ActionBar</item>
         <item name="actionButtonStyle">@style/Widget.Sherlock.ActionButton</item>
         <item name="actionOverflowButtonStyle">@style/Widget.Sherlock.ActionButton.Overflow</item>
-        <item name="actionModeBackground">@drawable/abs__cab_background_top_holo_dark</item>
-        <item name="actionModeSplitBackground">@drawable/abs__cab_background_bottom_holo_dark</item>
+        <item name="actionModeBackground">@drawable/transparent</item>
+        <item name="actionModeSplitBackground">@drawable/transparent</item>
         <item name="actionModeCloseDrawable">@drawable/abs__ic_cab_done_holo_dark</item>
         <item name="actionBarTabStyle">@style/Widget.Sherlock.ActionBar.TabView</item>
         <item name="actionBarTabBarStyle">@style/Widget.Sherlock.ActionBar.TabBar</item>
@@ -34,7 +34,7 @@
         <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
         <item name="actionMenuTextAppearance">@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?attr/textColorPrimary</item>
-        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarDivider">@drawable/transparent</item>
         <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
 
         <item name="buttonStyleSmall">@style/Widget.Sherlock.Button.Small</item>
@@ -47,7 +47,7 @@
 
         <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_dark</item>
 
-        <item name="dividerVertical">@drawable/abs__list_divider_holo_dark</item>
+        <item name="dividerVertical">@drawable/transparent</item>
 
         <item name="spinnerDropDownItemStyle">@style/Widget.Sherlock.DropDownItem.Spinner</item>
         <item name="spinnerItemStyle">@style/Widget.Sherlock.TextView.SpinnerItem</item>
@@ -102,7 +102,7 @@
         <item name="actionBarSplitStyle">?attr/actionBarStyle</item>
         <item name="actionMenuTextAppearance">@style/TextAppearance.Sherlock.Widget.ActionBar.Menu</item>
         <item name="actionMenuTextColor">?attr/textColorPrimary</item>
-        <item name="actionBarDivider">?attr/dividerVertical</item>
+        <item name="actionBarDivider">@drawable/transparent</item>
         <item name="actionBarItemBackground">?attr/selectableItemBackground</item>
 
         <item name="buttonStyleSmall">@style/Widget.Sherlock.Light.Button.Small</item>
@@ -115,7 +115,7 @@
 
         <item name="homeAsUpIndicator">@drawable/abs__ic_ab_back_holo_light</item>
 
-        <item name="dividerVertical">@drawable/abs__list_divider_holo_light</item>
+        <item name="dividerVertical">@drawable/transparent</item>
 
         <item name="spinnerDropDownItemStyle">@style/Widget.Sherlock.Light.DropDownItem.Spinner</item>
         <item name="spinnerItemStyle">@style/Widget.Sherlock.TextView.SpinnerItem</item>
@@ -163,7 +163,7 @@
         <item name="actionBarTabStyle">@style/Widget.Sherlock.Light.ActionBar.TabView.Inverse</item>
         <item name="actionBarTabBarStyle">@style/Widget.Sherlock.Light.ActionBar.TabBar.Inverse</item>
         <item name="actionBarTabTextStyle">@style/Widget.Sherlock.Light.ActionBar.TabText.Inverse</item>
-        <item name="actionBarDivider">@drawable/abs__list_divider_holo_dark</item>
+        <item name="actionBarDivider">@drawable/transparent</item>
         <item name="actionBarItemBackground">@drawable/abs__item_background_holo_dark</item>
         <item name="actionMenuTextColor">?attr/textColorPrimaryInverse</item>
         <item name="actionModeStyle">@style/Widget.Sherlock.Light.ActionMode.Inverse</item>

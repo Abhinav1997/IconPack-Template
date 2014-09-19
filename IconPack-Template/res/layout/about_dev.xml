@@ -72,20 +72,13 @@
 		        android:layout_height="@dimen/about_icons"
 		        android:layout_marginRight="@dimen/icon_margin"
 		        android:background="@drawable/about_googleplus" />
-		    
+		     
 		    <ImageButton 
-		        android:id="@+id/twitter_button"
+		        android:id="@+id/xda_button"
 		        android:layout_width="@dimen/about_icons"
 		        android:layout_height="@dimen/about_icons"
 		        android:layout_marginRight="@dimen/icon_margin"
-		        android:background="@drawable/about_twitter" />
-		    
-		    <ImageButton 
-		        android:id="@+id/facebook_button"
-		        android:layout_width="@dimen/about_icons"
-		        android:layout_height="@dimen/about_icons"
-		        android:layout_marginRight="@dimen/icon_margin"
-		        android:background="@drawable/about_facebook" />
+		        android:background="@drawable/about_xda" />
 	    
 	    </LinearLayout>
 	</LinearLayout>

@@ -72,7 +72,7 @@ public class MainActivity extends SherlockFragmentActivity {
 		setContentView(helper.createView(this));
 		
 		getSupportActionBar().setDisplayShowHomeEnabled(true); // Set this to false to hide AB Icon
-		getSupportActionBar().setDisplayShowTitleEnabled(true); // Set this to false to hide AB Title
+		getSupportActionBar().setDisplayShowTitleEnabled(false); // Set this to false to hide AB Title
 		
 		getSupportFragmentManager().beginTransaction()
 		.replace(R.id.container, new MainFragment())
@@ -128,7 +128,7 @@ public class MainActivity extends SherlockFragmentActivity {
 	 ** that dialog. If it is NOT installed, the user is prompted to install it. **
 	 ** You can remove this section if you're not checking for apps on first run **
 	 ******************************************************************************/
-	public void onStart() {
+/*	public void onStart() {
 		super.onStart();
 		boolean installed = Utils.isPackageInstalled("app.the1dynasty.oss", MainActivity.this);
 		
@@ -142,7 +142,7 @@ public class MainActivity extends SherlockFragmentActivity {
 	     * Installed dialog
 	     * Check res/values/strings.xml to change text to whatever you want the Alert to say
 	     */
-	        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+/*	        AlertDialog.Builder alert = new AlertDialog.Builder(this);
 	        alert.setTitle(getResources().getString (R.string.alert_start_title));
 	        alert.setMessage(getResources().getString (R.string.alert_start_desc));
 	        alert.setIcon(R.drawable.alert_pass);
@@ -152,15 +152,15 @@ public class MainActivity extends SherlockFragmentActivity {
 		    getSharedPreferences("PREFERENCE", MODE_PRIVATE)
 		        .edit()
 		        .putBoolean("firstrunAPP", false) /* You can change this to another name */
-		        .commit();
-	              }
-	    }
+//		        .commit();
+//	              }
+//	    }
 		
 	    /* 
 	     * Not Installed dialog
 	     * Check res/values/strings.xml to change text to whatever you want the Alert to say
 	     */
-		else {
+/*		else {
 			boolean nofirstrunOSS = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
 	    			.getBoolean("nofirstrunAPP", true);
 		    if (nofirstrunOSS){
@@ -189,11 +189,11 @@ public class MainActivity extends SherlockFragmentActivity {
 		    getSharedPreferences("PREFERENCE", MODE_PRIVATE)
 		        .edit()
 		        .putBoolean("nofirstrunAPP", false) /* You can change this to another name */
-		        .commit();
+		       // .commit();
 		    // TODO Make this random (1/8)
-		    }
+/*		    }
 	    }
-	}
+	}*/
 	
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
@@ -210,8 +210,8 @@ public class MainActivity extends SherlockFragmentActivity {
         switch(item.getItemId())
         {
         	case R.id.more:
-        		return true;
-			case R.id.app:
+       		return true;
+/*			case R.id.app:
 				/** 
 				 ** This checks if MY OSS app is installed. You can remove this case
 				 ** statement completely or add your own app to check against or leave
@@ -221,7 +221,7 @@ public class MainActivity extends SherlockFragmentActivity {
 				 ** Change line 136 with the play store link for your own app if you're 
 				 ** using this feature!
 				 **/
-				boolean installed = Utils.isPackageInstalled("app.the1dynasty.oss", MainActivity.this);
+/*				boolean installed = Utils.isPackageInstalled("app.the1dynasty.oss", MainActivity.this);
 			    if (installed) {
 			    	boolean appInstalled = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
 			    			.getBoolean("appInstalled", true);
@@ -238,7 +238,7 @@ public class MainActivity extends SherlockFragmentActivity {
 							(getResources().getString(R.string.app_market)));
 					startActivity(oss);
 			}
-    			break;
+    			break;*/
 	        case R.id.allIconsButton:
 				Intent allIcons = new Intent(MainActivity.this, AllIcons.class);
 				startActivity(allIcons);
@@ -268,10 +268,10 @@ public class MainActivity extends SherlockFragmentActivity {
 				Intent about = new Intent(MainActivity.this, AboutDev.class);
 				startActivity(about);
                 break;
-            case R.id.gplusButton:
-				Intent gpCommunity = new Intent(Intent.ACTION_VIEW).setData(Uri.parse
-						("http://bit.ly/14F6Eez"));
-          		startActivity(gpCommunity);
+            case R.id.xdaButton:
+				Intent xdaThread = new Intent(Intent.ACTION_VIEW).setData(Uri.parse
+						("http://www.edaway.com/wp-content/uploads/2012/04/logo_work_in_progress2.jpg"));
+          		startActivity(xdaThread);
                 break;
         }
         

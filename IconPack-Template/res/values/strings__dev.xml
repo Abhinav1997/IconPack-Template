@@ -24,21 +24,21 @@
 	<string name="app_link">https://play.google.com/store/apps/details?id=your.icons.name.here</string>
 	
 	<string name="developer_link">https://play.google.com/store/apps/developer?id=the1dynasty</string>
-	<string name="developer_name">the1dynasty</string>
-	<string name="dev_name">DEV NAME - the1dynasty</string>
-	<string name="dev_bio_title">MORE ABOUT the1dynasty</string>
-	<string name="dev_email">example@template.com</string>
+	<string name="developer_name">Abhinav2</string>
+	<string name="dev_name">My name - Abhinav Jhanwar</string>
+	<string name="dev_bio_title">More about me?</string>
+	<string name="dev_email">abhinav.jhanwar.august2@gmail.com</string>
 	
 	<string name="theme_description_app">"This is the description of your theme that shows up under the About Theme section of the app!"</string>
 	
-	<string name="theme_info">Thank YOU for your support!</string>
+	<string name="theme_info">Sincere thanks for your support!</string>
 	
-	<string name="dev_description">Specializes in - Icon Packs, Theme Chooser, and UCCW Skins</string>
+	<string name="dev_description">I am an android enthusiast and trying to learn more and more each day.</string>
 	
-	<string name="dev_bio">Blah. This is some text describing you.</string>
+	<string name="dev_bio">I am a 17-year old student. I build ROMs, kernels, tools, themes and have some or more experience in many bits of android. Graphics is not my strongest point but I try to do what I can. :)</string>
 	
 	<string name="share_text">"ENTER_YOUR_TEXT_HERE. https://play.google.com/store/apps/details?id=your.icons.name.here 
 	    \n\n I PROMOTE MY APP HERE http://bit.ly/ZI34gC"</string>
-	<string name="email_subject">YOUR_EMAIL_SUBJECT_HERE</string>
+	<string name="email_subject">User of AJ icons</string>
 	
 </resources>

@@ -8,11 +8,11 @@
     android:title="@string/more_overflow">
     
     <menu>
-	    <item
+<!--    <item
 	        android:id="@+id/app"
 	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
 	        android:showAsAction="never"
-	        android:title="@string/title_app"/>
+	        android:title="@string/title_app"/> -->
 	    
 	    <item
 	        android:id="@+id/allIconsButton"
@@ -45,10 +45,10 @@
 	        android:title="@string/about_dev"/>
 	
 	    <item
-	        android:id="@+id/gplusButton"
+	        android:id="@+id/xdaButton"
 	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
 	        android:showAsAction="never"
-	        android:title="@string/title_community"/>
+	        android:title="@string/title_xdat"/>
 	</menu>
 </item>
 </menu>

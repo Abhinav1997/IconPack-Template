@@ -24,7 +24,7 @@
         android:contentDescription="@string/content_description"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-    	android:src="@drawable/wall_1"
+    	android:src="@drawable/banner"
     	android:scaleType="centerCrop" />
     
 <LinearLayout 

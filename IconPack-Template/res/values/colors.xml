@@ -22,7 +22,7 @@
     
     <!-- App colors -->
     <color name="background_tab_pressed">#66AAAAAA</color>
-    <color name="background_window">#FFDEDEDE</color>
+    <color name="background_window">#FFFFFFFF</color>
     <color name="background_tabs">#FFE5E5E5</color>
 	<color name="about_title_color">#ff33b5e5</color>
 	<color name="divider">#FF33b5e5</color>
@@ -37,8 +37,8 @@
 	<color name="list_desc_color">#FF333333</color>
     <!-- NOTE: Stock app_bg color for the 'light' look is #FFE5E5E5 -->
     <!-- These colors are changed no matter which view you choose -->
-	<color name="app_bg">#FFE5E5E5</color>
-	<color name="wall_bg">#FFE5E5E5</color>
+	<color name="app_bg">#FFFFFFFF</color>
+	<color name="wall_bg">#FFFFFFFF</color>
 	<!-- Tablet Layout -->
 	<color name="tab_title">#FFFFFFFF</color>
 	<color name="tab_desc">#FFFFFFFF</color>
