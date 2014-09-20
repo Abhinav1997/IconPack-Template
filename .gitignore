@@ -15,6 +15,11 @@ local.properties
 .classpath
 .settings/
 .loadpath
+IconPack-Template/bin/
+IconPack-Template/gen/
+IconPack-Template/.classpath
+IconPack-Template/.project
+
 
 # External tool builders
 .externalToolBuilders/
